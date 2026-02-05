@@ -1,0 +1,87 @@
+const mainContainer = document.getElementById('main-container')
+const home = document.getElementById('home-link')
+const about = document.getElementById('about-link')
+const projects = document.getElementById('projects-link')
+const contact = document.getElementById('contact-link')
+
+const visitContact = document.getElementById('visit-contact')
+const homePage = document.getElementById('home-page')
+const aboutPage = document.getElementById('about-page')
+const projectsPage = document.getElementById('projects-page')
+const contactPage = document.getElementById('contact-page')
+
+
+
+const contactButtonAtHome = document.getElementById('contact-button')
+const titleWrapper = document.getElementById('title-wapper')
+const titlePart1 = document.getElementById('title-part-1')
+const introduction = document.getElementById('intro')
+const biography = document.getElementById('bio')
+const buttonIntro = document.getElementById('my-button-intro')
+const buttonBio = document.getElementById('my-button-bio')
+const homeNavBar = document.getElementById('home-navbar')
+const projectsNavBar = document.getElementById('projects-navbar')
+
+// homeNavBar.onclick = () => {
+//     homeNavBar.style.borderBottom = '2px solid white'
+//     projectsNavBar.style.borderBottom = 'none'
+// }
+
+// projectsNavBar.onclick = () => {
+//     projectsNavBar.style.borderBottom = '2px solid white'
+//     homeNavBar.style.borderBottom = 'none'
+// }
+
+// window.onload = () => {
+// homePage.style.removeProperty('display')
+// homeNavBar.style.borderBottom = '2px solid white'
+// projectsNavBar.style.borderBottom = 'none'
+// }
+
+const image7 = document.getElementById('project-image-7')
+const image8 = document.getElementById('project-image-8')
+const image9 = document.getElementById('project-image-9')
+
+// homePage.style.setProperty('display', 'none')
+// projectsPage.style.setProperty('display', 'none')
+
+home.onclick = () => {
+    aboutPage.style.setProperty('display', 'none')
+    projectsPage.style.setProperty('display', 'none')
+    contactPage.style.setProperty('display', 'none')
+    homePage.style.removeProperty('display')
+}
+
+about.onclick = () => {
+    homePage.style.setProperty('display', 'none')
+    projectsPage.style.setProperty('display', 'none')
+    contactPage.style.setProperty('display', 'none')
+    aboutPage.style.removeProperty('display')
+}
+
+projects.onclick = () => {
+    homePage.style.setProperty('display', 'none')
+    aboutPage.style.setProperty('display', 'none')
+    contactPage.style.setProperty('display', 'none')
+    projectsPage.style.removeProperty('display')
+}
+
+contact.onclick = () => {
+    homePage.style.setProperty('display', 'none')
+    aboutPage.style.setProperty('display', 'none')
+    projectsPage.style.setProperty('display', 'none')
+    contactPage.style.removeProperty('display')
+}
+
+titleWrapper.onmouseover = () => {
+    titlePart1.textContent = 'Always excelling'
+    setTimeout(() => { titlePart1.textContent = 'Αἰὲν ἀριστεύειν' }, 3000)
+}
+
+buttonIntro.onclick = () => {
+    introduction.scrollIntoView()
+}
+
+buttonBio.onclick = () => {
+    biography.scrollIntoView()
+}
