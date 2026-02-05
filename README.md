@@ -1,4 +1,4 @@
-# MIT xPRO A section portfolio project
+# MIT xPRO portfolio project
 ## Description of project
 In this project you will see a developed website which is running on direct GitHub link https://nasianikolova.github.io/nasia-nikolova-web/ on a web browser. It contains two pages, the first is the home page and the second is the page of projects. In the home page you will find an introduction video that contains the overview of my work and my skills. Also you will see my biography and contact data, so you can get in touch with me. In the projects' page you will find three projects that I have done and they are the most huge ones. You can click GitHub buttons you will see on projects' page, so you will redirected to each repository of them.
 ## How to Run
